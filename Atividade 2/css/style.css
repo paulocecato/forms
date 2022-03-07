@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;400&display=swap');
+
+
+
+
+body {
+    background-image: url(../imagens/pexels-keira-burton-6146929.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+    border-style: none;
+}
+
+fieldset {
+    border-style: dashed;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: orange;
+    font-family: League Spartan;
+
+}
+
+input {
+    color: grey;
+    border-style: dashed;
+    border-radius: 5px;
+    font-family: League Spartan;
+    font-size: 15px;
+    border-style: dotted;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0.5px 0.5px 1px 1px lightgray;
+}
+
+div {
+    width: 700px;
+    background-color: rgba(255, 255, 255, 0.7);
+    opacity: 0, 5;
+    font-family: League Spartan;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 20px;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 50px 5px lightgoldenrodyellow;
+}
+
+
+
+h1 {
+    font-family: League Spartan;
+    font-size: 20px;
+    border-style: none;
+    text-align: center;
+    color: brown;
+}
+
+h3 {
+    font-family: League Spartan;
+    font-size: 18px;
+    border-style: none;
+    text-align: center;
+    color: brown;
+}
+
+p {
+    font-family: League Spartan;
+    font-size: 16px;
+    border-style: none;
+    text-align: left;
+    color: brown;
+}
+
+textarea {
+    width: 620px;
+    height: 200px;
+    resize: none;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: orange;
+    border-width: 3px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-family: League Spartan;
+    font-size: 14px;
+    box-shadow: 1px 1px 0px 5px lightgray;
+}
+
+.plista {
+    font-family: League Spartan;
+    font-size: 15px;
+    border-style: none;
+    text-align: center;
+    color: orange;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.botao {
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    width: 100px;
+}
+
+.botaoenvio {
+    background-color: green;
+    font-family: League Spartan;
+    color: white;
+    width: 120px;
+    height: 40px;
+    margin right: 50px;
+    box-shadow: 1px 1px 0px 5px lightgray
+}
+
+.botaoreset {
+    background-color: orange;
+    font-family: League Spartan;
+    color: white;
+    width: 120px;
+    height: 40px;
+    margin right: 10px;
+    box-shadow: 1px 1px 0px 5px lightgray;
+    margin-left: 400px
+}
